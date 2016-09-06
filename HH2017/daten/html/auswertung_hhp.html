@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Auswertungstool 2017</title>
+<link href="../css/styles2.css" rel="stylesheet" type="text/css" />
+<link href="../css/tooltip.css" rel="stylesheet" type="text/css" />
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <!-- Ext CSS -->
+    <link rel="stylesheet" type="text/css" href="../ext-3.0.3/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="../ext-3.0.3/examples/ux/Ext.ux.grid.GridSummary/Ext.ux.grid.GridSummary.css"/>
+
+    <!-- Application CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/form.css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="../css/print.css"/>
+
+    <!-- JS -->
+    <script type="text/javascript" src="../ext-3.0.3/adapter/ext/ext-base.js"></script>
+
+    <script type="text/javascript" src="../ext-3.0.3/ext-all.js"></script>
+    <!--<script type="text/javascript" src="ext-3.0.3/ext-all-debug.js"></script>-->
+
+    <script type="text/javascript" src="../ext-3.0.3/src/locale/ext-lang-de.js"></script>
+
+    <!-- script type="text/javascript" src="../js/data/hhrechnung_2006_299001.js"></script -->
+    <script type="text/javascript" src="../js/data/cddata_2017.js"></script>
+    <!--<script type="text/javascript" src="js/data/test_data.js"></script>-->
+    
+    <script type="text/javascript" src="../js/summary.js"></script>
+    <script type="text/javascript" src="../js/filter.js"></script>
+    <script type="text/javascript" src="../js/process.js"></script>
+    
+    <script type="text/javascript" src="../js/init_hhp2017.js"></script>
+    <!--<script type="text/javascript" src="js/init_hhp2006.js"></script>-->
+    
+    <script type="text/javascript" src="../js/form.js"></script>
+    <script type="text/javascript" src="../ext-3.0.3/examples/ux/Ext.ux.grid.GridSummary/Ext.ux.grid.GridSummary.js"></script>
+    <script type="text/javascript" src="../ext-3.0.3/examples/ux/BufferView.js"></script>
+    <script type="text/javascript" src="../js/grid.js"></script>
+    
+    <script type="text/javascript" src="../ext-3.0.3/examples/ux/Ext.ux.Printer/Printer.js"></script>
+    <script type="text/javascript" src="../ext-3.0.3/examples/ux/Ext.ux.Printer/renderers/Base.js"></script>
+    <script type="text/javascript" src="../ext-3.0.3/examples/ux/Ext.ux.Printer/renderers/GridPanel.js"></script>
+
+
+</head>
+
+<body class="fimi">
+
+<div id="container">
+  <div id="header">
+ <div id="logo" alt="Logo Finanzministerium des Landes Nordrhein-Westfalen"></div>  
+ <div id="headline">Haushaltsplanentwurf 2017</div>
+<!-- end #header --></div>
+  <div id="menu" alt="Bildkomposition mit Zahlen">
+    <!-- end #menu -->
+</div>
+  <div id="menu2">
+  <ul id="navlist">
+<li><a href="../../Start.html" title="Haushaltsplan">&#124;&nbsp;Haushaltsplan&nbsp;</a></li>
+<li><a href="auswertung_hhp.html" title="Auswertung" class="bold">&#124;&nbsp;Auswertung&nbsp;</a></li>
+<li><a href="informationen.html" title="Impressum">&#124;&nbsp;Impressum&nbsp;</a></li>
+<li><a href="hilfe.html" title="Hilfe">&#124;&nbsp;Hilfe&nbsp;</a></li>
+</ul> <!-- end #menu -->
+</div>
+  <div id="content3">
+
+  <div id="navbar">
+    <button onclick="document.location.href='file:///c:/LUKA/local/CD/grid.htm'">Reload Page</button> <button id="button1">Show Grid</button>
+Zeile <input type="text" id="data_start" size="5"/> bis <input type="text" id="data_limit" size="5"/>
+<br/>Eval console (executes on blur): <input type="text" onblur="eval(this.value)" size="30"/>
+</div>
+<div id="form"></div>
+<div id="content-frame">
+    <div id="grid-content"></div>
+    <div id="content-frame-left"><span id="dataCount"></span> Datens&auml;tze <span id="content-frame-left-print" onclick="printGrid()">Drucken</span></div>
+    <div id="content-frame-right"></div>
+    <br style="clear:all"/>
+</div>
+
+
+  <!-- end #content -->
+</div>
+<!-- end #container --></div>
+
+</body>
+</html>

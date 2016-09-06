@@ -1,0 +1,321 @@
+@charset "UTF-8";
+body {
+	font: 100% Arial, Verdans, Helvetica, sans-serif;
+	background: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+	color: #000000;
+	}
+	
+
+.fimi #container {
+	width: 960px;
+	background: #FFFFFF;
+	margin: 0 auto; 
+	text-align: left;
+	overflow-x:hidden;
+	border: none;
+}
+/* Header*/
+.fimi #header {
+	background:#ffffff; 
+	padding: 0;
+	height: 88px;
+}
+
+
+
+
+.fimi #logo {
+		position: relative;
+		top: 22px;
+		left: 672px;
+		width: 263px;
+		height: 42px;
+	background-image:url(../pic/logo_fm.gif);
+}
+
+
+
+.fimi #headline {
+		position: relative;
+		top: 0px;
+		left: 25px;
+		width: 500px;
+		height: 40px;
+		font-size: 20px;
+		font-weight: bold;
+}
+
+
+
+	
+
+/* Bild */
+.fimi #menu {
+margin: 0; 
+height: 80px;
+background-image:url(../pic/head940.jpg);
+}
+
+.fimi #menu2 {
+	margin: 0;  
+	background: #66c5ed;
+	height: 22px;
+	
+}
+/* Aktualisiert*/
+.fimi #aktuell {
+			position: relative;
+		top: -14px;
+		left: 785px;
+				width: 150px;
+	text-align: right;
+		font-size:9px;
+}
+
+.fimi #sub {
+	text-align: left;
+		font-size:10px;
+}
+
+
+/* horizotales Menü */
+
+.fimi ul#navlist
+{
+margin:  0;
+padding: 0 0 0 25px;
+white-space: nowrap;
+}
+
+.fimi #navlist li
+{
+display: inline;
+list-style-type: none;
+font-size:12px;
+
+}
+
+.fimi #navlist .bold
+{
+font-weight: bold;
+color: #000}
+
+.fimi #navlist a 
+{ 
+padding: 0px 0px 0 0px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+
+
+.fimi #navlist a:link
+{
+text-decoration: none;
+
+}
+.fimi #navlist a:visited
+{
+text-decoration: none;
+
+}
+
+.fimi #navlist a:active
+{
+text-decoration: none;
+}
+
+.fimi #navlist a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+
+/* Content für index, grafische Darstellung */
+.fimi #content a:link {color:#000000; text-decoration:none}
+.fimi #content a:visited {color:#000000; text-decoration:none}
+.fimi #content a:active {color:#000000; text-decoration:none}
+.fimi #content a:hover {color:#e2001a; text-decoration:underline}
+
+.fimi #content {
+	padding: 35px 25px 20px 25px;
+	background:#ffffff;
+	height: 430px;
+}
+
+.fimi #links {
+	margin: 0 0 -22px 0;
+	padding: 0;
+
+}
+
+.fimi #center {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.fimi #rechts {
+	margin:  0;
+	padding: 0;
+	text-align: right;
+	font-size:14px;
+	
+}
+
+
+.fimi #content td { 
+	margin: 0; 
+	padding: 2px 0px;
+font-size: 14px;
+}
+
+/* Ende Content für index, grafische Darstellung */
+
+/* Content2 für HP */
+
+.fimi #content2 a:link {color:#000; text-decoration:none}
+.fimi #content2 a:visited {color:#000; text-decoration:none}
+.fimi #content2 a:active {color:#000; text-decoration:none}
+.fimi #content2 a:hover {color:#e2001a; text-decoration:underline}
+
+
+.fimi #content2 {
+	    margin:0 auto;
+		    width:960px;
+	background:#e4e4e4;
+	
+}
+
+
+
+.fimi #links2 {
+			padding: 22px 5px 10px 35px;
+width:210px;
+float:left;
+
+}
+
+.fimi #rechts2 {
+				padding: 22px 25px 10px 25px;
+			width:660px;
+background:#ffffff;
+		float:right;
+		    min-height:560px;
+			    _height:560px; /*fürIE*/
+}
+
+
+
+.fimi #content2 td { 
+	margin: 0; 
+	padding: 3px 0px;
+		vertical-align: top;
+font-size: 12px;
+}
+
+.fimi #content2 p {
+	margin: 0; 
+		padding: 0; 
+	font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.fimi #content2 td.red {
+		color:#e2001a;
+		font-weight: bold;
+	}
+	
+	.fimi #content2 td.rechts {
+		text-align: right;
+
+	}
+
+/* Ende Content2 für HP */
+
+/* Content3 für Auswertung */
+	
+	
+.fimi #content3 {
+	padding: 22px 25px 20px 0px;
+	background:#ffffff;
+		/*height: 310px;*/
+}
+
+/* Ende Content3 für Auswertung */
+
+
+/* Content4 für graf. Darst. Einnahmen, Ausgaben */
+.fimi #content4 a:link {color:#000000; text-decoration:none}
+.fimi #content4 a:visited {color:#000000; text-decoration:none}
+.fimi #content4 a:active {color:#000000; text-decoration:none}
+.fimi #content4 a:hover {color:#e2001a; text-decoration:underline}
+
+.fimi #content4 {
+	padding: 0;
+	overflow: visible;
+	background: #ffffff;
+}
+
+.fimi #links4 {
+	margin: 0 0 -22px 0;
+	padding: 0;
+	font-size:22px;
+	font-weight: bold;
+}
+
+.fimi #rechts4 {
+	margin:  0;
+	padding: 0;
+		text-align: right;
+	font-size:14px;
+	
+}
+
+
+.fimi #content4 td { 
+	margin: 0; 
+	padding: 2px 0px;
+font-size: 14px;
+}
+/* Ende Content4 für graf. Darst. Einnahmen, Ausgaben */
+
+
+.fimi #clear {
+	height:0px;
+clear:both;
+background:#f0f0f0;
+
+}
+
+
+	
+	.fimi #red {
+			padding: 0 0 0 0px;
+	margin: 0; 
+		font-size: 14px;
+		font-weight: bold;
+		color:#e2001a;
+	}
+	.fimi .bold {
+		font-weight: bold;
+	}
+	
+	
+
+#ext-comp-1010 table.x-toolbar-ct {
+//	width:700px;
+//	margin-left:-25px;
+}
+#ext-comp-1010 table.x-toolbar-ct table {
+}
+#ext-gen21 div.x-panel-ml {
+//	padding-left:12px;
+}

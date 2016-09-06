@@ -1,0 +1,217 @@
+#grid-content {
+	width:960px;
+	margin-top:5px;
+}
+
+#content-frame {
+	width:960px;
+	/*padding-left:40px;*/
+	visibility:hidden;
+}
+
+#content-frame-left {
+	float:left;
+	font-size:11px;
+	margin-top:10px;
+	padding-left:21px;
+}
+
+#content-frame-right {
+	margin-top:10px;
+	float:right;
+}
+
+#content-frame-left-print {
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+#navbar {
+	visibility:hidden;
+	display:none;
+}
+
+#subnavigation {
+	width:660px;
+	height:60px;
+}
+
+#subnavigation table td {
+	padding-right:20px;
+	font-size:100%;
+	/*font-weight:bold;*/
+}
+
+#subnavigation table td input, #subnavigation table td select {
+	font-size:100%;
+}
+
+#subnavigation table td table td.right {
+	text-align:right;
+}
+
+table.form-layout {
+	width:100%;
+}
+
+table.form-layout tr {
+	height:40px;
+}
+
+table.form-layout td.title {
+	font-weight:bold;
+	font-size:100%;
+	width:150px;
+	background:#B2B2B2;
+	border-bottom:1px solid #F0F0F0;
+	text-align:center;
+}
+
+table.form-layout td.content {
+	background:#F0F0F0;
+	border-bottom:1px solid #B2B2B2;
+	/*font-weight:bold;*/
+}
+
+table.form-layout td.content-last {
+    border-bottom:none;
+}
+
+table.form-layout td.content div.form-all {
+	margin-left:10px;
+	vertical-align:middle;
+	overflow:visible;
+	line-height:50px;
+}
+table.form-layout td.content div.form-all * {
+	line-height:normal;
+}
+
+table.form-layout td.content div.form-all select {
+	width:60px;
+	height:22px;
+}
+
+table.form-layout td.content div.form-all span.all {
+    margin-left:10px;
+    margin-right:20px;
+}
+
+table.form-layout td.content input.form1 {
+	margin-left:10px;
+}
+
+table.form-layout table.inline {
+	display:inline;
+}
+
+table.form-layout table.inline tr {
+	height:15px;
+}
+
+table.x-grid3-summary-table td div.x-grid3-cell-inner {
+	overflow:visible;
+}
+
+/* Ext overwrites */
+
+div.x-panel-bc, div.x-panel-br, div.x-panel-bl, div.x-panel-ml, div.x-panel-mr, div.x-panel-mc {
+	background:none;
+//	margin-left:-15px;
+}
+
+div.x-panel-tl, div.x-panel-body-noheader, div.x-panel-mc div.x-panel-body {
+	border:none;
+}
+div.form-all select,
+div.form-all table,
+div.form-all span.all {
+	float:left;
+	clear:none;
+	display:block;
+	margin:0px 10px 0px 0px;
+
+}
+table.form-layout td.content div.form-all select {
+	margin:13px 0px;
+}
+table.form-layout td.content div.form-all span.all {
+	display:block;
+	float:left;
+	margin-top:20px;
+//	margin-top:15px;
+	margin-left:0px;
+	width:50px;
+}
+table.form-layout td.content div.form-all span.all input {
+	dispaly:block;
+	float:left;
+	margin-right:5px;
+	margin-top:2px;
+//	margin-top:-2px;
+}
+div.form-all table input {
+	display:block;
+	float: left;
+	clear:none;
+	margin:0px;
+	margin-top:3px;
+	margin-right:3px;
+//	margin-top:-2px;
+//	margin-right:0px;
+//	margin-left:-2px;
+	padding:0px;
+//	vertical-align:middle;
+	
+}
+div.form-all table {
+	margin:4px 0px;
+//	margin:0px 0px;
+	height:40px;
+//	height:44px;
+}
+div.form-all table td {
+	padding:0px;
+	height:20px;
+//	height:22px;
+}
+.floatElement {
+	display:none;
+	float:left;
+	height:60px;
+	margin-left:8px;
+}
+div.form-all div.table {
+	width:46px;
+}
+
+div.form-all div.select {
+	width:65px;
+}
+div.form-all  div.select_1 {
+	display:block;
+}
+div.form-all  div.select_5,
+div.form-all  div.select_9 {
+	margin-left:78px;
+//	margin-left:39px;
+}
+div.form-all {
+	padding-left:0px;
+ 	text-indent:0px;
+}
+#form .x-btn-text {
+	background:transparent url(img/button_100.gif) no-repeat scroll 0 0;
+	color:#333333;
+	font-size:11px;
+	height:18px;
+	padding:4px 0px 0px 0px;
+	text-align:center;
+	width:100px;
+}
+#form .x-btn-text:hover{
+	background-image:url(img/button_100_hover.gif);
+}
+#form-panel1 .form-all input.form1 {
+//	margin-left:3px;
+}

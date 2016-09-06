@@ -1,0 +1,16 @@
+table {
+	width:100%;
+}
+
+table tr th {
+	font-family:arial,verdana,helvetica,sans-serif;
+    font-size:12pt;
+    font-weight:bold;
+    text-align:right;
+}
+
+table tr td {
+	font-family:arial,verdana,helvetica,sans-serif;
+	font-size:12pt;
+	text-align:right;
+}
